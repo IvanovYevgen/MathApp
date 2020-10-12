@@ -1,6 +1,6 @@
 # math_app1
 
-A new Flutter application.
+This app was built on Bloc.
 
 ## Getting Started
 
