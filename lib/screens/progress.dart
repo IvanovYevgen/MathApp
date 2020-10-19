@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'SizeConfig.dart';
+
 class Progress extends StatefulWidget {
   @override
   _ProgressState createState() => _ProgressState();
@@ -8,10 +10,11 @@ class Progress extends StatefulWidget {
 class _ProgressState extends State<Progress> {
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Center(
       child: Container(
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Color(0xFFccdb86),
             border: Border.all(),
             borderRadius: BorderRadius.all(Radius.circular(20))),
         height: 300.00,
@@ -27,4 +30,3 @@ class _ProgressState extends State<Progress> {
     );
   }
 }
-
